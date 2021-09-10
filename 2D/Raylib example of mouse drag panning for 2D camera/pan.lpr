@@ -2,7 +2,7 @@ program pan;
 
 {$mode objfpc}{$H+}
 
-uses cmem,ray_header, ray_math;
+uses cmem,ray_header, ray_math, math;
 
 const
  screenWidth = 800;
@@ -67,8 +67,8 @@ begin
        DrawLine(0, -size, 0, size, RED);
 
        mapGrid := GetScreenToWorld2D(GetMousePosition(), cam);
-       mapGrid.x := trunc(mapGrid.x / 10) * 10.0;
-       mapGrid.y := trunc(mapGrid.y / 10) * 10.0;
+       mapGrid.x := Floor(mapGrid.x / 10) * 10.0;
+       mapGrid.y := Floor(mapGrid.y / 10) * 10.0;
 
        DrawRectangle(Round(mapGrid.x), Round(mapGrid.y), 10, 10, BLUE);
 
