@@ -3,9 +3,11 @@ Collection of raylib code examples - For learning the Pascal language with 2D an
 
 convering example c to pascal from :
 
-https://bedroomcoders.co.uk/
+[Coding adventures of a geek](https://bedroomcoders.co.uk/)
 
-https://github.com/Pakz001/Raylib-Examples
+[Raylib-Examples](https://github.com/Pakz001/Raylib-Examples)
+
+**video converting code**
 
 [Converting raylib example from c to pascal langauge #1](https://youtu.be/sE3A48UvVBQ)
 
